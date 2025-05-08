@@ -9,7 +9,6 @@ from bson.objectid import ObjectId
 import math
 from functools import wraps
 import traceback
-import os 
 # MongoDB Collections variables
 users_coll = mongo.db["users"]
 recipes_coll = mongo.db["recipes"]
